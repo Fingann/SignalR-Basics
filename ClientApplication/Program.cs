@@ -13,52 +13,20 @@ namespace ClientApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Username: ");
-            var username = Console.ReadLine();
+            Console.Write("Whats your username: ");
+            string username = Console.ReadLine();
 
-            IHubProxy _hub;
-            string url = @"http://localhost:8080/";
-            var connection = new HubConnection(url,new Dictionary<string, string>() { {"Username", username } });
-            _hub = connection.CreateHubProxy("TestHub");
-            _hub.On("ReceiveLength", x => Console.WriteLine(x));
+            //Instanciate the HubClient
+            string url = "http://10.110.4.78:9676/";
+            HubConnectionInstance.Instance.HubConnection = new HubConnection(url, new Dictionary<string, string>() { { "Username", username  } });
+            HubConnectionInstance.Instance.Start();
 
-            _hub.On("mess",new Action<string,string>((s, s1) => Console.WriteLine(s +": "+s1)));
-            connection.Start().Wait();
+            Client client = new Client(username);
 
-            string line = null;
-            while ((line = Console.ReadLine()) != null)
-            {
-                Console.WriteLine("to user:");
-                var toUser = Console.ReadLine();
-                _hub.Invoke("Message", Serializer<ChatMessage>.Serialize(new ChatMessage(toUser,line))).Wait();
-            }
+            client.Run();
 
-            
-        }
 
-    }
-    public static class Serializer<T> where T:class
-    {
-        public static string Serialize(T Object)
-        {
-            return JsonConvert.SerializeObject(Object);
-        }
-
-        public static T Deserialize(string json)
-        {
-            return JsonConvert.DeserializeObject<T>(json);
         }
     }
 
-    public class ChatMessage
-    {
-        public ChatMessage(string toUsername, string message)
-        {
-            ToUsername = toUsername;
-            Message = message;
-        }
-
-        public string ToUsername { get; set; }
-        public string Message { get; set; }
-    }
 }

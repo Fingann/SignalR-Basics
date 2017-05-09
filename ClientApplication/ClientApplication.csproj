@@ -48,6 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="HubConnectionInstance.cs" />
+    <Compile Include="HubFinder.cs" />
+    <Compile Include="Hubs\MessageHub.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,5 +59,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SignalRTests.Core\SignalRTests.Core.csproj">
+      <Project>{3b5cdcea-094a-4eb4-b373-b7eea93fb0dd}</Project>
+      <Name>SignalRTests.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

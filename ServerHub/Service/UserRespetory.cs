@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace ServerHub.Service
 {
     public static class UserRespetory
     {
-        public static IDictionary<string,string> Users = new Dictionary<string, string>();
+        public static ConcurrentDictionary<string,string> Users = new ConcurrentDictionary<string, string>();
 
         public static string GetUser(string id)
         {
@@ -27,12 +28,13 @@ namespace ServerHub.Service
 
         public static void AddUser(string id, string username)
         {
-            Users.Add(id,username);
+            Users.TryAdd(id,username);
         }
 
         public static void DeleteUser(string id)
         {
-            Users.Remove(id);
+            string id2;
+            Users.TryRemove(id, out id2);
         }
     }
 }

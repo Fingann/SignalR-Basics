@@ -6,22 +6,28 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 using Newtonsoft.Json;
-using ServerHub.Models;
+
 using ServerHub.Service;
+using SignalRTests.Core.Models.Shared;
 
 namespace ServerHub.Hubs
 {
-    [HubName("TestHub")]
+    [HubName("MessageHub")]
     public class MessageHub : ExtetendedHub
     {
        
-        public void Message(string message)
+        public void sendMessage(ChatMessage message)
         {
-            var RecivedMessage = Serializer<ChatMessage>.Deserialize(message);
+            //var RecivedMessage = Serializer<ChatMessage>.Deserialize(message);
            
-            Console.WriteLine(UserRespetory.GetUser(Context.ConnectionId) + ": " + RecivedMessage.Message);
-            Clients.Client(UserRespetory.GetId(RecivedMessage.ToUsername)).mess(UserRespetory.GetUser(Context.ConnectionId),RecivedMessage.Message);
-            //Clients.All.ReceiveLength(RecivedMessage.ClientID + ": " + RecivedMessage.Message);
+            Console.WriteLine(message.FromUser+ " -> " + message.ToUsers.Aggregate((a,b) => a+ ", " +b) + " : " + message.Message);
+
+            List<string> userIDs = new List<string>();
+            foreach (var user in message.ToUsers)
+            {
+                userIDs.Add(UserRespetory.GetId(user));
+            }
+            Clients.Clients(userIDs).recievChatMessage(message);
            
         }
     }

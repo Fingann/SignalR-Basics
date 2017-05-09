@@ -1,0 +1,7 @@
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\SignalRTests.Core\obj\Debug\SignalRTests.Core.csprojResolveAssemblyReference.cache
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\SignalRTests.Core\bin\Debug\SignalRTests.Core.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\SignalRTests.Core\bin\Debug\SignalRTests.Core.pdb
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\SignalRTests.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\SignalRTests.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\SignalRTests.Core\obj\Debug\SignalRTests.Core.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\SignalRTests.Core\obj\Debug\SignalRTests.Core.pdb

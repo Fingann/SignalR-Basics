@@ -12,13 +12,17 @@ namespace ServerHub
     {
         public override Task OnConnected()
         {
-            UserRespetory.AddUser(Context.ConnectionId,Context.QueryString.Get("Username"));
+            var user = Context.QueryString.Get("Username");
+            UserRespetory.AddUser(Context.ConnectionId, user);
+            Console.WriteLine(DateTime.Now + " - " + user + " Connected.");
             return base.OnConnected();
         }
 
         public override Task OnDisconnected(bool stopCalled)
         {
+            var user = Context.QueryString.Get("Username");
             UserRespetory.DeleteUser(Context.ConnectionId);
+            Console.WriteLine(DateTime.Now + " - " + user + " Disconnected.");
             return base.OnDisconnected(stopCalled);
         }
     }

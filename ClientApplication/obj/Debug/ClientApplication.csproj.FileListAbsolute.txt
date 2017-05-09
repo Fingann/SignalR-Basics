@@ -8,3 +8,15 @@ c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ClientApplicat
 c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ClientApplication\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
 c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ClientApplication\obj\Debug\ClientApplication.exe
 c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ClientApplication\obj\Debug\ClientApplication.pdb
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\ClientApplication.exe.config
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\ClientApplication.exe
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\ClientApplication.pdb
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\obj\Debug\ClientApplication.exe
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\obj\Debug\ClientApplication.pdb
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\SignalRTests.Core.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ClientApplication\bin\Debug\SignalRTests.Core.pdb

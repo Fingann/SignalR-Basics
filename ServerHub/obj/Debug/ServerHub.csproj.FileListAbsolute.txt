@@ -24,3 +24,31 @@ c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ServerHub\obj\
 c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ServerHub\obj\Debug\ServerHub.pdb
 c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ServerHub\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
 c:\users\eddie\documents\visual studio 2017\Projects\SignalRTests\ServerHub\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\ServerHub.exe.config
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\ServerHub.exe
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\ServerHub.pdb
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Diagnostics.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Owin.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\System.Web.Cors.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Diagnostics.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\obj\Debug\ServerHub.csprojResolveAssemblyReference.cache
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\obj\Debug\ServerHub.exe
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\obj\Debug\ServerHub.pdb
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\SignalRTests.Core.dll
+C:\Users\sf9398\Documents\GitHub\SignalR-Basics\ServerHub\bin\Debug\SignalRTests.Core.pdb
